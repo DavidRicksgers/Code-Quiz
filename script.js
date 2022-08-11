@@ -34,39 +34,24 @@ var QuestionIndex = 0
 // The array of questions for our quiz game. not copied
 var questions = [
     {
-        q: '?',
-        a: '4. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
+        q: 'Inside which HTML element do we put the JavaScript??',
+        a: '4. <script>',
+        choices: [{ choice: '1. <scriptlink>' }, { choice: '2. <scripting>' }, { choice: '3. <js>' }, { choice: '4. <script>' }]
     },
     {
-        q: '?',
-        a: '3. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
+        q: 'Where is the correct place to insert the HTML element to link to your JavaScript?',
+        a: '3. In the <body>',
+        choices: [{ choice: '1. In the <title>' }, { choice: '2. In the <head>' }, { choice: '3. In the <body>' }, { choice: '4. anywhere works' }]
     },
     {
-        q: '?',
-        a: '1. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
+        q: 'select correct format for an IF statement in JavaScript?',
+        a: '1. if (i === 5)',
+        choices: [{ choice: '1. if (i === 5)' }, { choice: '2. if (i==5 then i++)' }, { choice: '3. if i==5' }, { choice: '4. if i is 5' }]
     },
     {
-        q: '?',
-        a: '4. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
-    },
-    {
-        q: '?',
-        a: '1. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
-    },
-    {
-        q: '?',
-        a: '2. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
-    },
-    {
-        q: '?',
-        a: '2. ',
-        choices: [{ choice: '1. ' }, { choice: '2. ' }, { choice: '3. ' }, { choice: '4. ' }]
+        q: 'How can you add a comment in a JavaScript??',
+        a: '4. //comment',
+        choices: [{ choice: '1. add.comment' }, { choice: '2. /*comment*/' }, { choice: '3. <!--comment-->' }, { choice: '4. //comment' }]
     },
 ];
 
